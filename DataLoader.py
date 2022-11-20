@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def load_dat(dataPath, heads, sep):
     #读取数据
     df = pd.read_table(dataPath, sep=sep, header=None, engine='python')
